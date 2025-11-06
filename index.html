@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SocialNet - Соціальна мережа</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <div class="navigation-container">
+            <div class="logo">SocialNet</div>
+            
+            <nav class="nav-links">
+                <a href="#features">Можливості</a>
+                <a href="#about">Про додаток</a>
+                <a href="#reviews">Відгуки</a>
+                <a href="#faq">FAQ</a>
+            </nav>
+            <a href="#contact" class="btn-primary">Зареєструватись</a>
+
+            <div class="checkbox-menu">
+                <input type="checkbox" id="menu-toggle">
+                <label for="menu-toggle" class="menu-icon">☰ Меню</label>
+                
+                <ul class="checkbox-nav">
+                    <ul class="dropdown">
+                        <li><a href="#features">Можливості</a></li>
+                        <li><a href="#about">Про додаток</a></li>
+                        <li><a href="#reviews">Відгуки</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                     </ul>
+                    <li class="mobile-register">
+                        <a href="#contact">Зареєструватись</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">     
+        <h1>SocialNet</h1>
+        <p>Будь на зв'язку з друзями завжди та всюди</p>
+        <div class="hero-buttons">
+            <button class="btn-white">Зареєструватися</button>
+            <button class="btn-outline">Дізнатися більше</button>
+        </div>
+        <div class="phone-mockup">
+            <img src="images/phone-mockup.png" alt="phone-mockup">
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <video autoplay muted loop playsinline class="background-video">
+            <source src="videos/video-bg.mp4" type="video/mp4">
+        </video>   
+        <h2>Можливості</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">
+                   <img src="icons/chat.svg" alt="chat icon">
+                </div>
+                <h3>Миттєві чати</h3>
+                <p>Спілкуйтесь з друзями у реальному часі</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                   <img src="icons/feed.svg" alt="feed icon">
+                </div>
+                <h3>Живи стрічка</h3>
+                <p>Діліться своїми найкращими фото моментами</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                   <img src="icons/security.svg" alt="security icon">
+                </div>
+                <h3>Приватність</h3>
+                <p>Контролюйте хто має та доступ до профілю</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>Про додаток</h2>
+        <div class="about-container">
+            <div class="about-text">
+                <p>SocialNet створено для тих, хто цінує швидкість та зручність. У нашому додатку ти знайдеш усе необхідне: від месенджера до групових спільнот і навіть відеодзвінків.
+                <br>Ми прагнемо зробити спілкування максимально простим та приємним.</p>
+            </div>
+            <div class="about-image">
+                <img src="images/about-mockup.png" alt="about">
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="reviews">
+        <h2>Відгуки користувачів</h2>
+        <div class="reviews-grid">
+            <div class="review-card">
+                <p>«Нарешті соцмережа, яка справді працює швидко!»
+                  — Марія, 22 роки</p>
+            </div>
+            <div class="review-card">
+                <p>«Простий дизайн і дуже зручний інтерфейс.»
+                  — Андрій, 28 років</p>
+            </div>
+            <div class="review-card">
+                <p>«Я перейшов сюди з інших соцмереж і не шкодую!»
+                  — Олег, 31 рік</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <h2>Наші тарифи</h2>
+        <p>Обери план, який підходить саме тобі</p>
+  
+        <div class="pricing-cards">
+        <div class="price-card">
+            <h3>Базовий</h3>
+            <p class="price">Безкоштовно</p>
+            <ul>
+                <li>• Обмежений доступ</li>
+                <li>• Миттєві чати</li>
+                <li>• Рекламний контент</li>
+            </ul>
+            <button>Обрати</button>
+         </div>
+  
+        <div class="price-card">
+            <h3>Преміум</h3>
+            <p class="price">199 ₴/міс</p>
+            <ul>
+                <li>• Повний функціонал</li>
+                <li>• Без реклами</li>
+                <li>• Пріоритетна підтримка</li>
+            </ul>
+            <button>Обрати</button>
+        </div>
+  
+        <div class="price-card">
+            <h3>Бізнес</h3>
+            <p class="price">499 ₴/міс</p>
+            <ul>
+                <li>• Командний доступ</li>
+                <li>• Розширена аналітика</li>
+                <li>• Особистий менеджер</li>
+            </ul>
+            <button>Обрати</button>
+        </div>
+        </div>
+    </section>  
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+      <div class="faq-container">
+          <h2>Часті запитання</h2>
+          <div class="faq-content">
+              <div class="faq-items">
+                  <div class="faq-item">
+                      <div class="faq-question">Чи безкоштовний додаток?</div>
+                      <div class="faq-answer">Так, базовий функціонал завжди буде безкоштовним.</div>
+                  </div>
+  
+                  <div class="faq-item">
+                      <div class="faq-question">Чи є преміум-версія?</div>
+                      <div class="faq-answer">Так, у преміум-версії доступні додаткові функції.</div>
+                  </div>
+  
+                  <div class="faq-item">
+                      <div class="faq-question">На яких платформах доступний додаток?</div>
+                      <div class="faq-answer">SocialNet доступен на платформах iOS та Android.</div>
+                  </div>
+              </div>
+              <div class="faq-icon">
+                <img src="images/faq.png" alt="faq">
+              </div>
+          </div>
+      </div>
+  </section>  
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Зв'яжіться з нами</h2>
+        <p>Маєте запитання або пропозиції? Напишіть нам!</p>
+      
+        <form class="contact-form">
+          <fieldset>
+            <label for="name">Ваше ім’я:</label>
+            <input type="text" id="name" name="name" placeholder="Ім’я" required>
+      
+            <label for="email">Ваш email:</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+      
+            <label for="phone">Телефон:</label>
+            <input type="tel" id="phone" name="phone" placeholder="+380..." required>
+      
+            <div class="radio-group">
+              <label>Тип звернення:</label>
+              <label class="radio-option">
+                <input type="radio" name="topic" value="question" checked>
+                <span>Запитання</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="topic" value="offer">
+                <span>Пропозиція</span>
+              </label>
+            </div>
+      
+            <div class="checkbox-group">
+              <label class="checkbox-option">
+                <input type="checkbox" name="subscribe">
+                <span>Хочу отримувати новини</span>
+              </label>
+            </div>
+      
+            <label for="message">Ваше повідомлення:</label>
+            <textarea id="message" name="message" placeholder="Напишіть повідомлення..." required></textarea>
+      
+            <button type="submit">Надіслати</button>
+          </fieldset>
+        </form>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <h2>Стань частиною нової соціальної мережі!</h2>
+        <button class="btn-white">Приєднатись</button>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>SocialNet</h3>
+                <p>Нова соціальна мережа для спілкування, обміну досвідом і новими ідеями. Швидка, зручна та сучасна.</p>
+            </div>
+            <div class="footer-column">
+                <h3>Меню</h3>
+                <ul>
+                    <li><a href="#features">Можливості</a></li>
+                    <li><a href="#about">Про додаток</a></li>
+                    <li><a href="#reviews">Відгуки</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Контакти</h3>
+                <ul>
+                    <li>Email: support@socialnet.com</li>
+                    <li>Телефон: +380 (67) 000-00-00</li>
+                    <li>Адреса: Київ, вул. Хрещатик, 1</li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Ми в соцмережах</h3>
+                <div class="social-icons">
+                    <div class="social-icon">
+                        <img src="icons/facebook.svg" alt="facebook">
+                    </div>
+                    <div class="social-icon">
+                        <img src="icons/instagram.svg" alt="instagram">
+                    </div>
+                    <div class="social-icon">
+                        <img src="icons/twitter.svg" alt="twitter">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            © 2025 SocialNet. Усі права захищені.
+        </div>
+    </footer>
+</body>
+</html>
